@@ -1,1 +1,1 @@
-# movie-database-design-project
+# MovieDB
