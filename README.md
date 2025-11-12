@@ -2,7 +2,7 @@
 
 ## 📖 Project Description  
 A scalable, lightweight SQL database that stores structured information about top-grossing and influential films.  
-The current dataset includes popular titles from **1990–2024**, covering details such as directors, runtime, ratings, release years, genres, scores, gross revenue, and distributors.  
+The current dataset includes popular titles from **2024**, covering details such as directors, runtime, ratings, release years, genres, scores, gross revenue, and distributors.  
 
 Designed for research efficiency, it serves as a querying and analytical tool for exploring filmmaking trends and industry performance across time.  
 
