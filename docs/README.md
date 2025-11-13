@@ -19,7 +19,7 @@ This allows for insights into filmmaking trends, profitability, and audience rec
 - **MySQL**  
 - **Excel**  
 - **MySQL Workbench**  
-- **ERD (Entity Relationship Diagram) modeling tools**  
+- **draw.io**  
 
 ## ⚙️ How to Run the SQL Scripts  
 1. Open **MySQL Workbench** (or a compatible SQL client).  
@@ -45,6 +45,9 @@ The ERD below represents the structure and relationships between all tables in t
 </p>
 
 ## 📄 Summary
+Dima and Josh were responsible for designing the Entity Relationship Diagram (ERD) for the movie database by utilizing draw.io. Their task focused on translating the project’s conceptual structure into a relational schema that accurately represents how each component of the dataset connects. After reviewing the core categories of information—such as movie details, genres, scores, gross earnings, and distributors, they structured the database to center around the Movies table, which serves as the primary entity linking all related data through foreign key relationships. 
+
+Ellie and Jocelyn were responsible for collecting the data sample. Our team wanted to narrow the scope as we decided to focus on the key aspects of what the database would focus on, really hitting on the key aspects of the movies. That did require a lot of decisions of which categories of the tables to keep and which were superfluous. In the end we decided on title, director first and last name, runtime, mpaa rating, release year, domestic gross, and distributor. Ellie worked on gathering the attributes for the movie table: title runtime, mpaa, and director name while Jocelyn worked on the attributes for the genre, score, gross distributor tables. Resources used to gather the sample data included google search, imdb, and rotten tomatoes. We compiled the data in excel 365. 
 
 
 
