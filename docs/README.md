@@ -23,19 +23,10 @@ This allows for insights into filmmaking trends, profitability, and audience rec
 
 ## ⚙️ How to Run the SQL Scripts  
 1. Open **MySQL Workbench** (or a compatible SQL client).  
-2. Create a schema named `movies_db`.  
-3. Run the provided SQL scripts in this order:  
-   - `movies_table.sql`  
-   - `genres_table.sql`  
-   - `score_table.sql`  
-   - `gross_table.sql`  
-   - `distribution_table.sql`  
-4. Import data from the Excel dataset using `INSERT` statements or the `LOAD DATA` command.  
-5. Execute queries and joins to explore insights such as:  
-   - Top-grossing studios  
-   - Average scores by genre  
-   - Director performance metrics  
-   - Trends by release year and rating  
+2. Run the provided SQL script `01_create_tables.sql` to create the db.
+3. Add triggers to the table using the SKL script `03_triggers.sql`.
+4. Fill the database with data using the SQL script `02_insert_data.sql`.
+5. Run `04_views_and queries.sql` to get information about the data the database contains.
 
 ## 🧩 Entity Relationship Diagram (ERD)
 The ERD below represents the structure and relationships between all tables in the database.
