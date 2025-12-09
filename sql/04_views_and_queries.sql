@@ -54,8 +54,7 @@ JOIN Genre g ON gr.genreid = g.genreid ​
 JOIN Score s ON m.movieid = s.movieid ​
 JOIN Distribution d ON m.movieid = d.movieid​
 WHERE g.genre = 'Action' ​
-ORDER BY s.score DESC;​ 
-Update to sample query:
+ORDER BY s.score DESC;​
 
 USE moviedb;​
 SELECT m.title, ​
