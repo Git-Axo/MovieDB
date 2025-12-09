@@ -1,3 +1,8 @@
+# 01_create_tables.sql
+
+This file initializes the moviedb database and defines all core tables used to store movie-related information.
+
+
 # 03_triggers.sql
 
 This file contains a collection of MySQL triggers designed to enforce data integrity and validation rules within the **moviedb** database. These triggers ensure that inserted and updated values in key tables remain consistent, valid, and logically correct.
